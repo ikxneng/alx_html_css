@@ -1,4 +1,4 @@
-![Headphones Logo](./headphones/images/logo_headphones.png)
+![Headphones Logo](alx_html_css/headphones/images/logo_headphones.png)
 
 Project Title: Headphones Website
 
