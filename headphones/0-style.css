@@ -1,0 +1,130 @@
+:root{
+    --red: #FF6565;
+    --navy: #071629;
+    opacity: 0.9;
+}
+
+@font-face {
+    font-family: SourceSansPro;
+    src: url('fonts/SourceSansPro-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*--------------------------------General Styles--------------------------------------*/
+
+header{
+    width: 255px;
+    height: 15px;
+    padding-right: 54px;
+    padding-left: 200.61px;
+}
+
+body{
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1400px;
+}
+
+.main-text{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 312px;
+    left: 352px;
+    color: white;
+    padding: 20px;
+}
+.main-text h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40.22px;
+    text-align: center;
+}
+    
+.main-text h3{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20.11px;
+        margin-top: -30px;
+        /*position: relative;
+        top: 0;*/
+    }
+
+.main-text p{
+    text-align:center;
+    width: 637px;
+    height: 104px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+
+/*--------------------------------Nav Styles--------------------------------------*/
+nav{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 54px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 255px;
+    height: 15px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    height: 15px;
+    color: white;
+}
+
+nav a:hover{
+    color: var(--red);
+}
+
+
+/*--------------------------------Button styles--------------------------------------*/
+.cta-button button{
+    width: 162px;
+    height: 44px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 22px;
+    background-color: var(--red);
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 2px 20px 0px #00000080;
+}
+/*--------------------------------Container Styles--------------------------------------*/
+.nav-container{
+    position: absolute;
+    top: 37px;
+    left: 896px;
+}
+/*--------------------------------Image Styles--------------------------------------*/
+header img{
+    margin-top: 37.76px;
+    width: 161px;
+    height: 32px;
+
+}
+
